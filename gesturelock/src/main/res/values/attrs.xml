@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GestureUnlock">
+        <attr name="circleErrorColor" format="color|reference"/>
+        <attr name="circleSuccessColor" format="color|reference"/>
+        <attr name="circleDefaultColor" format="color|reference"/>
+        <attr name="circleSelectColor" format="color|reference"/>
+        <attr name="lineSelectColor" format="color|reference"/>
+        <attr name="lineErrorColor" format="color|reference"/>
+        <attr name="lineSuccessColor" format="color|reference"/>
+        <attr name="determineTime" format="float"/>
+        <attr name="minSelect" format="integer"/>
+        <attr name="lookLocus" format="boolean"/>
+        <attr name="selectView" format="reference"/>
+        <attr name="errorView" format="reference"/>
+        <attr name="successView" format="reference"/>
+        <attr name="defaultView" format="reference"/>
+        <attr name="isSetUp" format="boolean"/>
+    </declare-styleable>
+</resources>

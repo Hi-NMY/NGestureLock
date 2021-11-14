@@ -1,0 +1,3 @@
+rootProject.name='NGestureLock'
+include ':app'
+include ':gesturelock'

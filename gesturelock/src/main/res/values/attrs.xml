@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="lineSelectColor" format="color|reference"/>
+    <attr name="lineErrorColor" format="color|reference"/>
+    <attr name="lineSuccessColor" format="color|reference"/>
+    <attr name="determineTime" format="float"/>
+    <attr name="minSelect" format="integer"/>
+    <attr name="lookLocus" format="boolean"/>
+    <attr name="isSetUp" format="boolean"/>
+
     <declare-styleable name="GestureUnlock">
         <attr name="circleErrorColor" format="color|reference"/>
         <attr name="circleSuccessColor" format="color|reference"/>
         <attr name="circleDefaultColor" format="color|reference"/>
         <attr name="circleSelectColor" format="color|reference"/>
-        <attr name="lineSelectColor" format="color|reference"/>
-        <attr name="lineErrorColor" format="color|reference"/>
-        <attr name="lineSuccessColor" format="color|reference"/>
-        <attr name="determineTime" format="float"/>
-        <attr name="minSelect" format="integer"/>
-        <attr name="lookLocus" format="boolean"/>
-        <attr name="selectView" format="reference"/>
-        <attr name="errorView" format="reference"/>
-        <attr name="successView" format="reference"/>
-        <attr name="defaultView" format="reference"/>
-        <attr name="isSetUp" format="boolean"/>
+        <attr name="lineSelectColor"/>
+        <attr name="lineErrorColor"/>
+        <attr name="lineSuccessColor"/>
+        <attr name="determineTime"/>
+        <attr name="minSelect"/>
+        <attr name="lookLocus"/>
+        <attr name="isSetUp"/>
+        <attr name="gestureStyle">
+            <enum name="DF" value="1" />
+            <enum name="QQ" value="2"/>
+            <enum name="XM" value="3"/>
+        </attr>
     </declare-styleable>
+
+<!--    <declare-styleable name="GestureUnlockView">-->
+<!--        <attr name="lineSelectColor"/>-->
+<!--        <attr name="lineErrorColor"/>-->
+<!--        <attr name="lineSuccessColor"/>-->
+<!--        <attr name="determineTime"/>-->
+<!--        <attr name="minSelect"/>-->
+<!--        <attr name="lookLocus"/>-->
+<!--        <attr name="selectView" format="reference"/>-->
+<!--        <attr name="errorView" format="reference"/>-->
+<!--        <attr name="successView" format="reference"/>-->
+<!--        <attr name="defaultView" format="reference"/>-->
+<!--        <attr name="isSetUp"/>-->
+<!--    </declare-styleable>-->
 </resources>

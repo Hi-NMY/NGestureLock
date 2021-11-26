@@ -3,4 +3,15 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="qq_one">#808080</color>
+    <color name="qq_two">#00A0E4</color>
+    <color name="qq_three">#F7574B</color>
+
+    <color name="xm_one">#808080</color>
+    <color name="xm_two">#50808080</color>
+    <color name="xm_three">#F7574B</color>
+    <color name="xm_four">#50F7574B</color>
+    <color name="xm_five">#33CC00</color>
+    <color name="xm_six">#5033CC00</color>
 </resources>

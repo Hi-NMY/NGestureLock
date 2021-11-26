@@ -9,6 +9,7 @@
         tools:context=".MainActivity">
 
     <com.example.gesturelock.GestureUnlock
+            app:gestureStyle="QQ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 

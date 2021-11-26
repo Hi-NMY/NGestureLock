@@ -1,5 +1,14 @@
 package com.example.gesturelock;
 
+import android.view.View;
+
+/**
+ * @author nmynmy
+ * @title: GesturePoint
+ * @projectName NGestureLock
+ * @description: TODO
+ * @date 2021-11-14 22:37
+ */
 public class GesturePoint {
 
     public static final int DEFAULT = 1;
@@ -10,13 +19,19 @@ public class GesturePoint {
 
     public static final int SUCCESS = 4;
 
-    private int NOW_CODE = 1;
+    private int nowCode = 1;
 
-    private int centerX;
+    private final int centerX;
 
-    private int centerY;
+    private final int centerY;
 
-    private int value;
+    private final int value;
+
+    private View view = null;
+
+    public View getView() {
+        return view;
+    }
 
     public int getCenterX() {
         return centerX;
@@ -36,23 +51,30 @@ public class GesturePoint {
         this.value = value;
     }
 
+    public GesturePoint(int centerX, int centerY, int value, View view) {
+        this.centerX = centerX;
+        this.centerY = centerY;
+        this.value = value;
+        this.view = view;
+    }
+
     public void setCode(int code) {
-        this.NOW_CODE = code;
+        this.nowCode = code;
     }
 
     public boolean isDefault() {
-        return NOW_CODE == DEFAULT;
+        return nowCode == DEFAULT;
     }
 
     public boolean isSelected() {
-        return NOW_CODE == SELECT;
+        return nowCode == SELECT;
     }
 
     public boolean isError() {
-        return NOW_CODE == ERROR;
+        return nowCode == ERROR;
     }
 
     public boolean isSuccess() {
-        return NOW_CODE == SUCCESS;
+        return nowCode == SUCCESS;
     }
 }

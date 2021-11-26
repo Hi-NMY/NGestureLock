@@ -19,7 +19,7 @@
 - android studio
 
    ```groovy
-    implementation 'com.github.nmy520:NGestureLock:0.1.0'
+    implementation 'com.github.nmy520:NGestureLock:0.1.1'
    ```
 
 ## Api用法
@@ -44,6 +44,7 @@
           app:errorView=""    //错误时样式（此功能未实现）
           app:defaultView=""    //默认样式（此功能未实现）
           app:successView=""    //成功时样式（此功能未实现）
+          app:gestureStyle=""   //内置样式  DF（默认）/ QQ（QQ样式）/XM（小米样式）
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
     ```
@@ -63,7 +64,7 @@
         myunlock.setLookLocus();
         muunlock.setSetUp();
         myunlock.setDefaultKey();    //写入密码（正确的密码）
-        
+        myunlock.setGestureStyle();   
         与其对应get方法不再赘述
     ```
 - 监听接口

@@ -19,7 +19,7 @@
 - android studio
 
    ```groovy
-    implementation 'com.github.nmy520:NGestureLock:0.1.2'
+    implementation 'com.github.Hi-NMY:NGestureLock:0.1.2'
    ```
 
 ## Api用法

@@ -3,6 +3,16 @@
 ## 简介
 
 - ### 一个简单的自定义手势锁View
+## 示例：
+
+| QQ                                                           | 小米                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](https://tvax3.sinaimg.cn/large/005LlRGlly1gyur3o2m2fg30ge0zkx6r.gif) | ![](https://tvax1.sinaimg.cn/large/005LlRGlly1gyur42ljvgg30ge0zkx6p.gif) |
+
+| 默认                                                         | 默认(自定义颜色)                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](https://tvax1.sinaimg.cn/large/005LlRGlly1gyur3hy4vng30ge0zknpf.gif) | ![](https://tva4.sinaimg.cn/large/005LlRGlly1gyur06ylljg30ge0zk7wl.gif) |
+
 
 ## 使用 
 
